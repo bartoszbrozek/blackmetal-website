@@ -1,0 +1,71 @@
+$colors: (
+  primary: #666,
+  background: #000,
+  font: #666
+);
+
+$imgs: (
+  mainTitle: url("../img/title.png")
+);
+
+$margins: (
+  defaultTop: 5em 0 0 0,
+  m: 5em 0 5em 0
+);
+
+* {
+  color: map-get($colors, font);
+}
+
+html,
+body,
+#app,
+.home-page {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: map-get($colors, background);
+}
+
+.home-page {
+  position: relative;
+}
+
+.mainTitle {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 25em;
+
+  margin: map-get($margins, m);
+
+  content: map-get($imgs, mainTitle);
+}
+
+ul.navbar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    flex-grow: 1;
+    a {
+      margin: 0 5px 0 5px;
+      text-decoration: none;
+    }
+  }
+}
+
+.flexbox-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h3 {
+  margin: 0;
+}
