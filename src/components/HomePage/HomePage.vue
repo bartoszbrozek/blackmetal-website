@@ -1,5 +1,5 @@
 <template>
-  <div class="home-page">
+  <div class="home-page fade-in">
     <div class="flexbox-container">
       <div>
         <h3>BLACK METAL FROM POLAND</h3>
