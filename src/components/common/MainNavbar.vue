@@ -12,36 +12,12 @@
 </template>
 
 <script>
+import links from '../../assets/data/links.json'
 export default {
-  data: function() {
-    return {
-      links: [
-        {
-          name: "NEWS",
-          to: "/news",
-          icon: {
-            name: "cross",
-            rotation: 180
-          }
-        },
-        {
-          name: "BIOGRAPHY",
-          to: "/biography",
-          icon: {
-            name: "cross",
-            rotation: 180
-          }
-        },
-        {
-          name: "MUSIC",
-          to: "/music",
-          icon: {
-            name: "cross",
-            rotation: 180
-          }
-        }
-      ]
-    };
+  computed: {
+    links() {
+      return links 
+    }
   }
 };
 </script>

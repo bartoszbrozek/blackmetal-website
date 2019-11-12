@@ -1,10 +1,6 @@
 <template>
   <div class="home-page fade-in">
     <div class="flexbox-container">
-      <div>
-        <h3>BLACK METAL FROM POLAND</h3>
-      </div>
-
       <MainTitle></MainTitle>
       <MainNavbar></MainNavbar>
     </div>
@@ -20,6 +16,6 @@ export default {
   components: {
     MainTitle,
     MainNavbar
-  }
+  },
 };
 </script>
