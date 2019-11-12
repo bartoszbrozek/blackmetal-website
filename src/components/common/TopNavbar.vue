@@ -1,16 +1,4 @@
 <template>
-  <!-- <div class="top-navbar">
-    <div class="brand"></div>
-    <ul class="navbar">
-      <li v-for="(link, key) in links" v-bind:key="key">
-        <router-link :to="link.to">
-          <font-awesome-icon :icon="link.icon.name" :rotation="link.icon.rotation" />
-          {{link.name}}
-        </router-link>
-      </li>
-    </ul>
-  </div>-->
-
   <header>
     <div class="brand" @click="backToMainMenu"></div>
     <nav>

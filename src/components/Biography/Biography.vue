@@ -11,7 +11,7 @@
 
         <p>
           The project's first release,
-          <i>End of Existence</i> has been warmly welcomed by undeground metal community.
+          <i>End of Existence</i> has been warmly welcomed by underground metal community.
         </p>
 
         <p>
