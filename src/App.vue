@@ -17,16 +17,12 @@ export default {
   components: { TopNavbar },
   watch: {
     $route: function() {
-      if (this.$route.path !== "/") {
-        this.isTopNavbarVisible = true
-      } else {
-        this.isTopNavbarVisible = false
-      }
+      this.isTopNavbarVisible = this.$route.path !== "/";
     }
   },
   data: function() {
     return {
-      isTopNavbarVisible: false
+      isTopNavbarVisible: this.$route.path !== "/"
     };
   }
 };

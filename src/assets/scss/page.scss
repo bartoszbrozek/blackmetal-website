@@ -68,7 +68,7 @@ ul.navbar {
 .brand {
   content: map-get($imgs, mainTitle);
   width: 100%;
-  max-width: 5em;
+  max-width: 15vh;
 }
 
 .flexbox-container {
