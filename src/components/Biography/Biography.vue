@@ -2,7 +2,7 @@
   <div class="biography page">
     <div class="flexbox-container">
        <div class="textbox text-justified">
-        <h3>BIOGRAPHY</h3>
+        <h3 class="title">BIOGRAPHY</h3>
 
         <p>
           Zagłada was formed in 2017 as a one man project by the creator of Mornië Utúlië,

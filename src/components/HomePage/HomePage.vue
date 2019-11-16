@@ -1,6 +1,6 @@
 <template>
   <div class="home-page page fade-in">
-    <div class="flexbox-container">
+    <div class="flexbox-container content-centered">
       <MainTitle></MainTitle>
       <MainNavbar></MainNavbar>
     </div>

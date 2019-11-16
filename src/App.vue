@@ -7,7 +7,7 @@
       <div class="fog-img fog-img-1"></div>
       <div class="fog-img fog-img-2"></div>
     </div>
-    <transition name="topbar-animation" enter-to-class="fade-in" leave-to-class="fade-out">
+    <transition name="topbar-animation" enter-active-class="fade-in" leave-active-class="fade-out">
       <router-view></router-view>
     </transition>
   </div>

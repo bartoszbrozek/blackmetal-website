@@ -1,5 +1,7 @@
 @import "./animations.scss";
 @import "./fog.scss";
+@import "./news.scss";
+@import "./music.scss";
 
 $colors: (
   primary: #666,
@@ -12,6 +14,8 @@ $imgs: (
 );
 
 $margins: (
+  defaultPage: 10em 0 0 0,
+  defaultPhonePage: 12em 0 0 0,
   defaultTop: 5em 0 0 0,
   m: 0em 0 5em 0
 );
@@ -33,7 +37,9 @@ body {
 }
 
 .home-page,
-.biography {
+.biography,
+.music,
+.news {
   position: relative;
   height: 100%;
   margin: 0;
@@ -75,11 +81,17 @@ ul.navbar {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
-h3 {
+.content-centered {
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
@@ -124,6 +136,22 @@ header {
   }
 }
 
+.page {
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  margin: map-get($margins, defaultPage);
+
+  .title {
+    font-size: xx-large;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 768px) {
   header {
     nav {
@@ -149,9 +177,8 @@ header {
   .mainTitle {
     padding: 0 1em 0 1em;
   }
-}
 
-.page {
-  position: fixed;
-  width: 100%;
+  .page {
+    margin: map-get($margins, defaultPhonePage);
+  }
 }

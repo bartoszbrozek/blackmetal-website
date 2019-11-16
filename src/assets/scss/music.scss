@@ -1,0 +1,25 @@
+$margins: (
+  default: 2em 0 0 0
+);
+
+.albums{
+  text-align: justify;
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-around;
+
+  .album {
+    margin: map-get($margins, default);
+
+    .date {
+     font-style: italic;
+    }
+
+    .title {
+      font-size: 16px;
+    }
+
+    
+  }
+}
