@@ -1,5 +1,5 @@
 <template>
-  <div class="biography">
+  <div class="biography page">
     <div class="flexbox-container">
        <div class="textbox text-justified">
         <h3>BIOGRAPHY</h3>

@@ -1,11 +1,15 @@
 <template>
   <div id="app">
-    <TopNavbar v-show="isTopNavbarVisible"></TopNavbar>
+    <transition name="topbar-animation" enter-active-class="fade-in" leave-active-class="fade-out">
+      <TopNavbar v-show="isTopNavbarVisible"></TopNavbar>
+    </transition>
     <div class="fog">
       <div class="fog-img fog-img-1"></div>
       <div class="fog-img fog-img-2"></div>
     </div>
-    <router-view></router-view>
+    <transition name="topbar-animation" enter-to-class="fade-in" leave-to-class="fade-out">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 

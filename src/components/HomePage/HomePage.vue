@@ -1,5 +1,5 @@
 <template>
-  <div class="home-page fade-in">
+  <div class="home-page page fade-in">
     <div class="flexbox-container">
       <MainTitle></MainTitle>
       <MainNavbar></MainNavbar>
