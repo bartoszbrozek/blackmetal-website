@@ -5,8 +5,14 @@
 
 $colors: (
   primary: #666,
+  primary-hover: #777,
   background: #000,
   font: #666
+);
+
+$opacities: (
+  brand-hover: 1,
+  brand-not-hover: 0.9
 );
 
 $imgs: (
@@ -36,6 +42,10 @@ body {
   background: map-get($colors, background);
 }
 
+a:hover {
+  color: map-get($colors, primary-hover);
+}
+
 .mainTitle {
   position: relative;
   margin-right: auto;
@@ -63,9 +73,14 @@ ul.navbar {
 }
 
 .brand {
+  opacity: map-get($opacities, brand-not-hover);
   content: map-get($imgs, mainTitle);
   width: 100%;
   max-width: 15vh;
+}
+
+.brand:hover {
+  opacity: map-get($opacities, brand-hover);
 }
 
 .flexbox-container {
