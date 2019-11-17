@@ -37,6 +37,7 @@ body,
   height: 100%;
   margin: 0;
   font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
 }
 
 body {
@@ -197,6 +198,7 @@ footer {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  font-weight: 100;
 
   nav {
     ul {

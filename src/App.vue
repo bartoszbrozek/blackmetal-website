@@ -11,7 +11,7 @@
       <router-view></router-view>
     </transition>
     <transition name="topbar-animation" enter-active-class="fade-in" leave-active-class="fade-out">
-      <FooterBar></FooterBar>
+      <FooterBar class="fade-in"></FooterBar>
     </transition>
   </div>
 </template>
