@@ -1,8 +1,8 @@
 [
     {
-        "link": "<iframe style='border: 0; width: 350px; height: 470px;' src='https://bandcamp.com/EmbeddedPlayer/album=2776891650/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/' seamless><a href='http://zaglada.bandcamp.com/album/the-annihilation-of-spiritual-essence'>The Annihilation Of Spiritual Essence by Zagłada</a></iframe>"
+        "link": "<iframe style='border: 0; width: 100%; height: 470px;' src='https://bandcamp.com/EmbeddedPlayer/album=2776891650/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/' seamless><a href='http://zaglada.bandcamp.com/album/the-annihilation-of-spiritual-essence'>The Annihilation Of Spiritual Essence by Zagłada</a></iframe>"
     },
     {
-        "link": "<iframe style='border: 0; width: 350px; height: 470px;' src='https://bandcamp.com/EmbeddedPlayer/album=2067348290/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/' seamless><a href='http://zaglada.bandcamp.com/album/end-of-existence'>End of Existence by Zagłada</a></iframe>"
+        "link": "<iframe style='border: 0; width: 100%; height: 470px;' src='https://bandcamp.com/EmbeddedPlayer/album=2067348290/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/' seamless><a href='http://zaglada.bandcamp.com/album/end-of-existence'>End of Existence by Zagłada</a></iframe>"
     }
 ]

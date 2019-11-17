@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 
 import HomePage from "../components/HomePage/HomePage.vue"
 import Biography from "../components/Biography/Biography.vue"
-import News from "../components/News/News.vue"
+import Links from "../components/Links/Links.vue"
 import Music from "../components/Music/Music.vue"
 
 export default new VueRouter({
@@ -20,8 +20,8 @@ export default new VueRouter({
             component: Biography,
         },
         {
-            'path': '/news',
-            component: News,
+            'path': '/links',
+            component: Links,
         },
         {
             'path': '/music',

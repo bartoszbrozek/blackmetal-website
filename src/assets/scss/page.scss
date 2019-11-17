@@ -1,6 +1,6 @@
 @import "./animations.scss";
 @import "./fog.scss";
-@import "./news.scss";
+@import "./links.scss";
 @import "./music.scss";
 
 $colors: (
@@ -16,7 +16,8 @@ $opacities: (
 );
 
 $imgs: (
-  mainTitle: url("../img/title.png")
+  mainTitle: url("../img/title.png"),
+  bandPromo: url("../img/acheron-promo.jpg")
 );
 
 $margins: (
@@ -36,7 +37,7 @@ body,
 #app {
   height: 100%;
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
 }
 
@@ -59,6 +60,16 @@ a:hover {
   content: map-get($imgs, mainTitle);
 }
 
+img {
+  width: 100%;
+}
+
+.band-promo {
+  content: map-get($imgs, bandPromo);
+  width: 100%;
+
+}
+
 ul.navbar {
   display: flex;
   align-items: center;
@@ -77,8 +88,8 @@ ul.navbar {
 .brand {
   opacity: map-get($opacities, brand-not-hover);
   content: map-get($imgs, mainTitle);
-  width: 100%;
   max-width: 15vh;
+  cursor: pointer;
 }
 
 .brand:hover {
@@ -154,6 +165,7 @@ header {
 
   .title {
     font-size: xx-large;
+    text-align: center;
   }
 }
 

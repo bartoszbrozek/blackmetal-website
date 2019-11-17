@@ -1,0 +1,42 @@
+$margins: (
+  default: 2em 1em 0 1em
+);
+
+$links: (
+  link-bc: url("../img/bandcamp-logo.svg"),
+  link-fb: url("../img/facebook-logo.png"),
+  link-sp: url("../img/spotify-logo.png")
+);
+
+.links {
+  text-align: justify;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  .link {
+    margin: map-get($margins, default);
+    filter: grayscale(1);
+    opacity: 0.8;
+  }
+
+  .link:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  #bc {
+    content: map-get($links, link-bc);
+    max-width: 10em;
+  }
+
+  #fb {
+    content: map-get($links, link-fb);
+    max-width: 5em;
+  }
+
+  #sp {
+    content: map-get($links, link-sp);
+    max-width: 5em;
+  }
+}

@@ -1,13 +1,15 @@
 <template>
   <div class="biography page">
     <div class="flexbox-container">
-       <div class="textbox text-justified">
+      <div class="textbox text-justified">
         <h3 class="title">BIOGRAPHY</h3>
 
         <p>
           Zagłada was formed in 2017 as a one man project by the creator of Mornië Utúlië,
           <i>Acheron</i>.
         </p>
+
+        <div class="band-promo"></div>
 
         <p>
           The project's first release,
@@ -28,8 +30,7 @@
 </template>
 
 <script>
-
 export default {
-  name: "Biography",
+  name: "Biography"
 };
 </script>

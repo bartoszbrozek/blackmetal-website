@@ -2,7 +2,7 @@ $margins: (
   default: 2em 0 0 0
 );
 
-.albums{
+.albums {
   text-align: justify;
   display: flex;
   flex-flow: row wrap;
@@ -12,13 +12,11 @@ $margins: (
     margin: map-get($margins, default);
 
     .date {
-     font-style: italic;
+      font-style: italic;
     }
 
     .title {
       font-size: 16px;
     }
-
-    
   }
 }

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import links from '../../assets/data/links.json'
+import links from '../../assets/data/nav.json'
 export default {
   computed: {
     links() {

@@ -1,13 +1,5 @@
 [
     {
-        "name": "NEWS",
-        "to": "/news",
-        "icon": {
-            "name": "cross",
-            "rotation": 180
-        }
-    },
-    {
         "name": "BIOGRAPHY",
         "to": "/biography",
         "icon": {
@@ -18,6 +10,14 @@
     {
         "name": "MUSIC",
         "to": "/music",
+        "icon": {
+            "name": "cross",
+            "rotation": 180
+        }
+    },
+    {
+        "name": "LINKS",
+        "to": "/links",
         "icon": {
             "name": "cross",
             "rotation": 180
